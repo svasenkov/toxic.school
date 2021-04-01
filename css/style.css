@@ -664,6 +664,9 @@ button,
     opacity: 1;
     pointer-events: auto; }
 
+.container {
+  padding-top: 30vh; }
+
 h1 {
   font-size: 6em;
   text-align: center;
@@ -723,7 +726,7 @@ p {
   color: #fff; }
   @media (max-width: 767px) {
     .button-link {
-      top: 65%;
+      top: 55%;
       font-size: 1em; } }
   .button-link:hover {
     opacity: 0.7; }
@@ -734,6 +737,16 @@ p {
     background: -webkit-gradient(linear, left top, right top, from(#e74c3c), to(#000000));
     background: linear-gradient(to right, #e74c3c, #000000);
     color: #fff; }
+
+img {
+  max-width: 50%;
+  margin: 0 auto; }
+  @media (max-width: 1439px) {
+    img {
+      max-width: 85%; } }
+  @media (max-width: 1023px) {
+    img {
+      max-width: 100%; } }
 
 /* @media (hover: hover), screen and (min-width: 0\0) {
   &:hover,
